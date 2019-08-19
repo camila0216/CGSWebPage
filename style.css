@@ -1,0 +1,42 @@
+/*Class used to make the background of the title and contact information pink*/
+.jumbotron{
+  background-color: pink
+}
+
+/*Class used to visually justify texts*/
+.justify{
+  text-align: justify;
+}
+
+/*Makes the title responsive*/
+h1{
+  font-size: 4vw;
+}
+
+/*Class used to add borders to the information displayed*/
+.profile{
+  border: medium solid black;
+}
+
+/*Class used to style the images in the professional information page*/
+.img1{
+  max-width: 80%;
+  max-height: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*Class used to center elements*/
+.other{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Class used to display images in boxes with description in the personal information page.*/
+.card{
+  border: medium solid black;
+  width:18vw;
+  text-align: justify;
+  width:100%;
+  height:auto;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Camila Gómez Schrader</title>
+		<meta name="author" content="Camila Gómez Schrader">
+		<meta name="description" content="This page has professional information related to my CV. It includes professional experience, academic studies, between others.">
+		<!-- Helps to make the webpage responsive-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!--Link that allows to use bootstrap-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!--Link that connects the stylesheet style.css to this html-->
+		<link rel="stylesheet" type="text/css"  href="style.css">
+		<!--Links used to add the favicon-->
+		<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+		<!--Connection to the javascript file script.js-->
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<!-- A grey horizontal navbar that becomes vertical on small screens -->
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<!--Options of the navigation bar-->
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Professional Information</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="interests.html">Personal Information</a>
+				</li>
+			</ul>
+		</nav>
+		<!--Title of the webpage and small description-->
+		<div class="jumbotron text-center">
+			<h1>Camila Gómez Schrader</h1>
+			<p>My Personal Webpage</p>
+		</div>
+		<!--Profile parragraph with image-->
+		<div class="container">
+			<div class="row profile" >
+				<div class="col-sm-4">
+					<img src="./images/F1.jpg" class="img1" alt="Camila smiling.">
+				</div>
+				<div class="col-sm-8" >
+					<h2> Profile </h2>
+					<p class="justify"> Industrial Engineering and Computer Science student actually coursing nineth semester in La Universidad de Los Andes, strongly comitted to her academic, social and cultural growth. I have skills in research, teamwork, leadership, adaptability and leaving my comfort zone. I have organizational aptitudes of integrity, order, planning, trust, effective communication and fast learning. Extensive knowledge in programming and management of different softwares, finance, operations research, organizations, production systems, communication networks, computing infrastructure, business intelligence and data mining. Inspired by working to make an impact on the world and making Colombia a better place. </p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!--Professional experience information organized in a list.-->		
+		<div class="container">
+			<div class="row profile" >
+				<h2> Profesional Experience</h2>
+				<ul>
+					<li>Universidad de Los Andes, Bogotá Colombia, teacher assistant in the course of Algorithms and Object Oriented Programming 1, August, 2017 – December, 2017 and August, 2018 – August, 2019</li>
+				</ul>
+			</div>
+		</div>
+		<br>
+		<!--Academic studies information organized in a list.-->	
+		<div class="container">
+			<div class="row profile" >
+				<div class="col-sm-8">
+					<h2> Academic Studies</h2>
+					<ul>
+						<li>The English School, Bogotá Colombia. Bachelor Degree in 2015.
+						<li id="grado1">Universidad de los Andes, Bogotá, Colombia. Industrial Engineering, expected date of graduation: 2021.</li>
+						<li id="grado2">Universidad de los Andes, Bogotá, Colombia. Computer Science, expected date of graduation: 2021.</li>
+						<li>Universidad de los Andes, Bogotá, Colombia. Engineering Leadership Program, January 2018 - November 2018.</li>
+						<!--Use of a function in script.js so that once the expected date of graduation has passed both studies related to my bachelor degrees show my bachelor degree date. -->
+						<script>gradDate();</script>
+					</ul>
+				</div>
+				<!--School's graduation image -->
+				<div class="col-sm-4">
+					<img src="./images/F4.jpg" class="img1" alt="Camila on her school graduation with her two brothers.">
+				</div>
+			</div>
+		</div>
+		<br>
+		<!--Section that includes other relevant information for my CV.-->
+		<!-- First row of the section-->
+		<div class="container profile">
+			<div class="row" >
+				<div class="col-sm-4 other">
+					<!--Listo of languages I know-->
+					<h2> Languages </h2>
+					<ul>
+						<li>Spanish, native.</li>
+						<li>Advanced english (C1), The English School, Bogotá, Colombia, 2001-2015</li>
+						<li>Basic french, The English School, Bogotá, Colombia, 2012-2015.</li>
+					</ul>
+				</div>
+				<!--List of programs I know how to use-->
+				<div class="col-sm-4 other">
+					<h2> Tecnology </h2>
+					<ul>
+						<li>Microsoft Office (Word, Advanced Excel (visual basic), PowerPoint, Access), Java, Xpress MP (mosel), R, basic Python, SQL, AWS, Cisco Packet Tracer, Knime, iThink, Vensim, Simio, HTML, CSS.</li>
+					</ul>
+				</div>
+				<!--Foreign studies-->
+				<div class="col-sm-4 other">
+					<h2> Foreign Courses </h2>
+					<ul>
+						<li>Academic exchange to United Kingdom, July, 2009</li>
+					</ul>
+					<!--England's flag.-->
+					<img src="./images/F2.png" class="img1" alt="United Kingdon's flag.">
+				</div>
+			</div>
+			<!-- Second row of the section-->
+			<!--List of other certifications I have-->
+			<div class="row" >
+				<div class="col-sm-4 other">
+					<h2> Certifications </h2>
+					<ul>
+						<li>Leadership Course with CoSchool (Connected schools, collective learning), Bogotá, Colombia, August, 2013 - June, 2015.</li>
+					</ul>
+					<!--Coschool's logo-->
+					<img src="./images/coschool.jpg" class="img1" alt="Co-School's logo.">
+				</div>
+				<!--List of other certifications I have-->
+				<div class="col-sm-4 other">
+					<h2> Congressess </h2>
+					<ul>
+						<li>Delegate in United Nation's model TESMUN in 2008, 2009, 2011</li>
+						<li>Listener in the 1st Artificial Intelligence Forum, Universidad de los Andes, 2019</li>
+					</ul>
+					<!--Excellence scholarships. This two go in the same div for design purpuses and organization.-->
+					<h2> Honors </h2>
+					<ul>
+						<li>Winner of two scholarships for academic excellence during high school at The English School.</li>
+					</ul>
+				</div>
+				<!--List of volonteer works-->
+				<div class="col-sm-4 other">
+					<h2> Social Works</h2>
+					<ul>
+						<li>Volunteer at TECHO, Bogotá, Colombia, July, 2014 - July 2016.</li>
+						<li>Participation in events of Fundación Corazones Unidos in Bogotá, Colombia</li>
+						<li>CAS program of the international baccalaureate,</li>
+						<li>Social Service in rancherias in La Guajira, Colombia, 2013.</li>
+						<li>Social service in a school and in a kindergarden in the Amazon in 2014.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!--Footer with contact information.-->
+		<footer>
+			<div class="jumbotron text-right">
+				<h3>Contact Information</h3>
+				<p>Email Adress: c.gomezs@uniandes.edu.co</p>
+			</div>
+		</footer>
+	</body>
+</html>
