@@ -1,5 +1,6 @@
 "use strict";
 
+// Hbiera sido chevere que implementaras una funcion que usaras de una vez en tu página, pero super genial la idea de poner tu grado.
 //Function that helps to update my bachelor studies once I graduate from university
 function gradDate(){
   //Get's today's date
